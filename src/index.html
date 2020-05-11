@@ -8,8 +8,17 @@
         <link rel="stylesheet" type="text/css" href="./style.css" />
     </head>
     <body>
-        hello
-
+        <div class="snake">
+            <div class="canvas">
+                <canvas id="snake" width="608" height="608"></canvas>
+            </div>
+            <div class="snake-btn">
+                <button onclick="{btnLeft()}" class="left">Left</button>
+                <button onclick="{btnRight()}" class="right">Right</button>
+                <button onclick="{btnTop()}" class="top">Top</button>
+                <button onclick="{btnDown()}" class="down">Down</button>
+            </div>
+        </div>
         <!--scripts-->
         <script src="./scripts.js"></script>
     </body>

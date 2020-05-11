@@ -1,3 +1,32 @@
 body {
     background: #ff8900ad;
 }
+
+/* snake */
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+.snake-btn {
+    position: absolute;
+    top: 50%;
+    right: 70px;
+}
+button.top {
+    top: -40px;
+    position: absolute;
+    right: 48px;
+}
+button.down {
+    top: 40px;
+    position: absolute;
+    right: 38px;
+}
+button.left {
+    position: absolute;
+    right: 84px;
+}
+button.right {
+    position: absolute;
+    right: 0px;
+}
